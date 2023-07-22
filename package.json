@@ -1,0 +1,34 @@
+{
+  "name": "com.dh.dh_stats",
+  "version": "1.0.0",
+  "displayName": "DH Stats System",
+  "description": "This system manages n-many stats in a way that allows m-many modifiers to be applied and removed at random. Supported are stats of the types int, float and bool. For int and float it supports the operations Set, Add and Multiply. It solves the issue of recalculating lists of partially non commutative modifier operations in an efficient way. Effects can be enabled to be stackable. Check Github for full feature list.",
+  "unity": "2019.4",
+  "dependencies": {
+    
+  },
+  "keywords": [
+    "stats",
+    "attributes",
+    "status effects",
+    "buffs",
+    "debuffs"
+  ],
+  "samples": [
+    {
+      "displayName": "Starter Pack",
+      "description": "Template for custom implementations. Comes with 2 editor utility windows to overview all your stats and modifiers.",
+      "path": "Samples~/StarterPack"
+    },
+    {
+      "displayName": "Starter Pack With Example",
+      "description": "Contains: Starter Pack; Stats UI; Modifier UI; Over 30 common Stats premade; An example on how to instantiate modifiers",
+      "path": "Samples~/StarterPackWithExample"
+    }
+  ],
+  "author": {
+    "name": "Dirk Hartlage",
+    "email": "dirkhartlage1@gmail.com",
+    "url": "https://dirkhartlage.com"
+  }
+}
